@@ -1,0 +1,21 @@
+import React from "react";
+import "./Loading.scss";
+
+const Loading = ({ text }) => {
+  return (
+    <div className="loading">
+      <div className="sk-circle">
+        <div className="sk-circle1 sk-child"></div>
+        <div className="sk-circle2 sk-child"></div>
+        <div className="sk-circle3 sk-child"></div>
+        <div className="sk-circle4 sk-child"></div>
+        <div className="sk-circle5 sk-child"></div>
+        <div className="sk-circle6 sk-child"></div>
+        <div className="sk-circle7 sk-child"></div>
+      </div>
+      <p>{text}</p>
+    </div>
+  );
+};
+
+export default Loading;
